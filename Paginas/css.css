@@ -45,3 +45,20 @@ footer a:hover{
 #uno {
     padding: 10px;
 }
+#titulo {
+    animation-duration: 3s;
+    animation-name: apa;
+    animation-iteration-count: infinite;
+}
+@keyframes apa {
+    0% {
+        color: #ffbef5;
+    }
+    50% {
+        color: #c1c9ff;
+    }
+    100% {
+        opacity: 1;
+        color: #ddb3ff;
+    }
+}
